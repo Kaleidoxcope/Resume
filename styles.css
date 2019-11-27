@@ -1,0 +1,102 @@
+h1, h2 {
+  font-family: 'Siemreap', serif;
+  font-weight: normal;
+  text-align: center;
+}
+a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+h1 {
+  font-size: 300%;
+  font-weight: bold;
+  color: #5321b8;
+  margin: 5px;
+  }
+h2 {
+  font-size: 1.25em;
+  min-width: 300px;
+}
+p, ul, th, td {
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+}
+table, th, td {
+  border: 0px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+}
+th {
+  color: #876eb8;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+li.title {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #876eb8;
+}
+p.company, p.Achievements {
+  font-size: 1em;
+  font-family: 'Siemreap',serif;
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+p.Achievements {
+  margin-top: 5px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#accordion input {
+   display: none;
+}
+#accordion label {
+  font-family: 'Siemreap', serif;
+  font-weight: normal;
+  font-size: 1.25em;
+  text-align: center;
+  color: white;
+  background-color: #5321b8;
+  padding: 5px;
+  min-width: 300px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: .25em;
+  z-index: 20;
+}
+#accordion label:hover {
+  background: #876eb8;
+}
+#accordion input:checked + label {
+  background: #876eb8;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  color: white;
+  margin-bottom: 0;
+}
+#accordion article {
+  background: #f2f2f2;
+  height:0px;
+  overflow:hidden;
+  z-index:10;
+}
+#accordion article p {
+  padding: 1em;
+}
+#accordion input:checked article {
+}
+#accordion input:checked ~ article {
+  border-bottom-left-radius: .25em;
+  border-bottom-right-radius: .25em;
+  height: auto;
+  margin-bottom: .125em;
+}
