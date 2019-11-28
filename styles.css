@@ -7,16 +7,18 @@ a {
   color: white;
   padding: 5px;
   text-decoration: none;
+  font-family: 'Raleway', sans-serif;
 }
 h1 {
   font-size: 300%;
   font-weight: bold;
-  color: #5321b8;
-  margin: 5px;
+  color: white;
+  margin: 0px;
   }
 h2 {
   font-size: 1.25em;
   min-width: 300px;
+  color: #140D14;
 }
 p, ul, th, td {
   font-size: 1em;
@@ -30,7 +32,7 @@ th, td {
   padding: 8px;
 }
 th {
-  color: #876eb8;
+  color: #7D585E;
 }
 table {
   margin-left: auto;
@@ -39,7 +41,7 @@ table {
 li.title {
   font-weight: bold;
   font-size: 1.1em;
-  color: #876eb8;
+  color: #7D585E;
 }
 p.company, p.Achievements {
   font-size: 1em;
@@ -65,7 +67,7 @@ p.Achievements {
   font-size: 1.25em;
   text-align: center;
   color: white;
-  background-color: #5321b8;
+  background-color: #7D585E;
   padding: 5px;
   min-width: 300px;
   cursor: pointer;
@@ -74,10 +76,10 @@ p.Achievements {
   z-index: 20;
 }
 #accordion label:hover {
-  background: #876eb8;
+  background: #543a3e;
 }
 #accordion input:checked + label {
-  background: #876eb8;
+  background: #543a3e;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   color: white;
